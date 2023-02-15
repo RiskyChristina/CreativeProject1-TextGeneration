@@ -1,0 +1,12 @@
+In conclusion, there were some problems that I ran into when using OpenAI’s ChatGPT. I wanted to curate 
+a 3,000-word response from one prompt. No matter how I would word the prompt I was only ever given 
+about 600 words at a given time. The AI looked as if it was going to generate more text, but would always 
+stop in the middle of the sentence once a 600ish word limit was reached. Sometimes it would end around 
+588 words in the middle of the sentence, sometimes it would go a bit higher, but never hitting the 3,000 limit I asked for. 
+
+To hit the 3,000 words I wanted, I had to ask multiple prompts. With all the quotes I picked out and used 
+from the first generative text model, I ended up with seven different recipes and a total word count of 3,351. 
+Overall, the stories created along with the recipes where interesting to read and related to the quote in 
+some way. The most interesting thing to come about this was I was randomly generated a drink, and appetizer, 
+some main courses, and a dessert in which it basically created it’s own cook book even though the prompts were 
+asked separately each time.

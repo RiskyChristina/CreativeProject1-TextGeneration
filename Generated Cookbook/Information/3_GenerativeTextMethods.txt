@@ -1,0 +1,68 @@
+I used a Google Colab for the first generative text method called Train a GPT-2 Text Generating Model w/ GPU.
+
+Here's the link: https://colab.research.google.com/drive/1VLG8e7YSEwypxU-noRNhsv5dW4NfTGce
+
+I followed along the given steps and synced my Google Docs to the file. When it came to the actual generation, 
+I modified the values that were given.
+
+For the first run on the training, the values I used were:
+
+dataset=file_name,
+              model_name='124M',
+              learning_rate=1e-5,
+              steps=50,
+              restore_from='fresh',
+              run_name='run1',
+              print_every=5,
+              sample_every=10,
+              save_every=500
+
+
+As for the second run, I used these values and retrained the model four more times after:
+
+dataset=file_name,
+              model_name='124M',
+              learning_rate=1e-5,
+              steps=200,
+              restore_from='latest',
+              run_name='run1',
+              print_every=20,
+              sample_every=100,
+              save_every=500
+              )
+
+
+After the training was done, I reloaded my checkpoint and began generating text from my trained model. 
+The values I used for the generative code was:
+
+gpt2.generate(sess,
+              length=25,
+              temperature=0.7,
+              prefix="Love is",
+              nsamples=5,
+              batch_size=5
+              )
+
+I wanted to curate five samples with a max character limit of 25. Also, I wanted the quotes to be 
+short as to hopefully not confuse the next generative text model I would be using. Here are the quotes 
+I decided to keep, with my prefix I choose placed in brackets.
+
+    1. [Sunday afternoon], and he looked on wistfully at the picturesque little island of Bexleyeslake.
+       She is beautiful
+    2. [A walk on the beach] is not a holiday!
+       Yes, life is few and far between, eh?
+       But they is pleasant,
+    3. [Stars in the sky] over Paris. I gazed about me, and then at the stars. There was a sound that rose from the dead of an
+    4. [The sun shines] through the leaves as white as snow, and the leaves turn pearly as snowflakes, and the leaves of the trees
+    5. [The sun shines] all day, and the clouds are ever so juttingly up to the sea. Then, at last, they come
+    6. [Cloudy days], and the loneliness of your home.
+       You could tell that her anxiety was growing. M. Hautet had remarked
+    7. [Love is] a very mysterious thing," he added, as he rose and proceeded to slip a slip of paper from his pocket. "It
+
+After I got the number of quotes I wanted, I shifted over to OpenAI’s ChatGPT. 
+
+Here's the link: https://openai.com/
+
+I asked the AI if it was possible for it to write 3,000 because that is the amount, I wanted from it. 
+It said that it could so I proceeded to ask it a variety of prompts to get the responses I wanted to see. 
+The prompt I settled on was “can you create a blog style recipe that has 3,000 words, inspired by the quote, [enter quote here]”. 

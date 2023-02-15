@@ -1,0 +1,18 @@
+I wanted to create a generated cookbook in OpenAI's ChatGPT, based on quotes that were trained 
+and generated from ChatGPT-2.
+
+However, I wasn’t satisfied with the recipe’s it was providing. The title was the only part to have 
+any relevance to the given quote and I wanted more content from it. I decided to switch gears and go for 
+a more blogger style recipe to see if the generated text would curate a story based off the recipe, and then 
+provide a conclusion after. I was seeing better results and was happy with the content it was writing, the 
+recipe choices though were a bit of an interesting choice, but that’s the joy of generated text. 
+
+As for the original texts, I went to Project Guttenberg to grab three different genres. One being a murder mystery, 
+another about poems, and the last one comedy. I wanted a wide range of emotions to train my first generative 
+texts so I could hopefully curate a variety of quotes. Instead of using the entire text from each of these books, 
+I choose sections toward the middle of the stories that seemed to have interesting dialogue and more action. 
+
+For OpenAI ChatGPT, I had to fiddle around with my prompts to get the response I wanted to see in the generated text. 
+After a few tries I ended up settling on “can you create a blog style recipe that has 3,000 words, inspired by the quote, 
+[enter quote here]”. I found this gave me the most verbose response and have the generated text curate a story to 
+go along with the recipe. 
